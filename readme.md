@@ -5,3 +5,5 @@ This sample project shows the same service bus Java client app you run on VM wit
 Refer to [Service-Bus-Java-SDK sample README document](https://github.com/Azure/azure-service-bus-java/blob/dev/README.md) for service bus setup instructions. 
 
 Refer to [Assign Azure Active Directory Identities to kubernetes applications](https://github.com/Azure/aad-pod-identity) for setting up aadidentity and aadidentitybinding Kubernetet CRD.
+
+My custom TokenProvider (MyManagedServiceIdentityTokenProvider.java) was pushed to Azure Srvice Bus Java SDK (https://github.com/Azure/azure-service-bus-java/pull/298) to share this patch. 
